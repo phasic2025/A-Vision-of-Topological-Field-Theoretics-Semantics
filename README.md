@@ -117,33 +117,6 @@ The document includes custom theorem-like environments:
 - `observation` - Observations
 - `experiment` - Experiments
 
-## Adding Content
-
-### Adding Sections
-
-Edit the appropriate `.tex` file in the `sections/` directory. The main document automatically includes all section files.
-
-### Adding Figures
-
-Place figure files (PDF, PNG, etc.) in the `figures/` directory and reference them using:
-
-```latex
-\begin{figure}
-    \centering
-    \includegraphics{figures/figure-name}
-    \caption{Figure caption}
-    \label{fig:label}
-\end{figure}
-```
-
-### Adding References
-
-Add BibTeX entries to `references.bib` and cite them using `\cite{key}`.
-
-### Adding Algorithms
-
-Place algorithm descriptions in the `algorithms/` directory or include them directly in section files using the `algorithm` environment.
-
 ## Notes
 
 - The document uses the `amsart` document class for formal mathematical presentation
@@ -164,9 +137,37 @@ This whitepaper is a work in progress. Areas for future development include:
 
 ## License
 
-[To be determined]
+Small Business Friendly License 1.0 (SBFL-1.0)
 
-## Contact
+Copyright (c) PhasicFuture
 
-[To be added]
+Permission is hereby granted, free of charge, to any person or entity
+("Licensee") obtaining a copy of this software and associated documentation
+files (the "Software"), to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, subject to the following
+conditions:
+
+1. If the Licensee is an entity with gross revenue of one million U.S.
+   dollars ($1,000,000 USD) or more in any trailing twelve-month period
+   (including all affiliated entities), the Licensee may not use the
+   Software for any commercial or production purpose without first obtaining
+   a separate commercial license from the copyright holder.
+
+2. Individuals and entities with gross revenue below $1,000,000 USD in any
+   trailing twelve-month period may use the Software freely for any purpose,
+   including commercial and production use.
+
+3. The above copyright notice and this permission notice must be included
+   in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+IN THE SOFTWARE.
+
+For commercial licensing inquiries (required for entities ≥ $1M revenue),
+contact: jeanieblues3@proton.me
 
